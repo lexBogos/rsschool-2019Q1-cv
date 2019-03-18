@@ -41,7 +41,17 @@ a {
 }
 a:hover {
   color: #f27d2c;
-  text-decoration: underline;
+  animation: shadow-pulse 1s infinite;
+}
+
+@keyframes shadow-pulse
+{
+  0% {
+    box-shadow: 0 0 0 0px rgba(170, 51, 123, 0.5);
+  }
+  100% {
+    box-shadow: 0 0 0 10px rgba(0, 0, 0, 0);
+  }
 }
 
 .container {
