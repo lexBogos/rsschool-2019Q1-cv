@@ -27,8 +27,12 @@ body {
     color:#000;
 }
 
-.facebook a:hover{background:#3b5998;color:#fff;}
-.telegram a:hover{background:#249bd7;color:#fff;}
+.facebook a:hover{background:#3b5998; color:#fff;}
+.telegram a:hover{background:#249bd7; color:#fff ;}
+.telegram a:hover i{color:#fff;}
+.vkontakte a:hover{background:#4A76A8; color:#fff;}
+
+
 
 
 a {
@@ -97,7 +101,6 @@ h3{
   color: #0C0C0C;
   margin-right: 10px;
 }
-
 .fa-envelope{
   color: #0C0C0C;
   margin-right: 10px;
